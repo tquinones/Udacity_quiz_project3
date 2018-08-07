@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wall"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name the two main characters"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question1_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Jason and Greg"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/question1_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Bunny and Greg"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/question1_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Wirt and Greg"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="Select the name of Greg's lucky frog:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/question2_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jason Funderberk"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question2_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jimmy Brown"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question2_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wirt, Jr"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question2_choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endicott"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="What award-winning animated short was this show based on:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="#FFFFFF">
+
+            <RadioButton
+                android:id="@+id/question3_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secrets in the Woods"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/question3_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tome of the Unknown"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/question3_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Woodsmans"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="Who was a voice actor this show:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <CheckBox
+            android:id="@+id/question4_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tara Strong"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question4_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="David Spade"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question4_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tim Curry"
+            android:textColor="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/question4_choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christopher Lloyd"
+            android:textColor="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="Which channel did this air on:"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disney Channel"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/question5_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartoon Network"
+                android:textColor="#FFFFFF" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question5_answer"
+            android:paddingTop="25dp"
+            android:text="What year did this show air"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question6_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers"
+            android:text="Submit"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
